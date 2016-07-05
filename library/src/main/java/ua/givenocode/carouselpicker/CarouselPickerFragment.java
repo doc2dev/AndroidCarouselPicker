@@ -201,20 +201,20 @@ public class CarouselPickerFragment extends Fragment {
         return itemId;
     }
 
-    public abstract class Listener {
+    public static abstract class Listener {
         /**
          * Called when user stops scrolling but before item is centrified
          */
-        void onItemPreSelected(long itemId) {}
+        public void onItemPreSelected(long itemId) {}
 
         /**
          * Called after item has been dragged to center
          */
-        void onItemSelected(long itemId) {}
+        public void onItemSelected(long itemId) {}
 
         /**
          * View is in focus but user is still scrolling
          */
-        void onScrollOver(long itemId) {}
+        public void onScrollOver(long itemId) {}
     }
 }
