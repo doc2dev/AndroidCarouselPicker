@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">CarouselPickerDemo</string>
+
+
+    <array name="string_items">
+        <item>Wooden Barricade</item>
+        <item>Wooden Shelter</item>
+        <item>Low Grade Fuel</item>
+        <item>Workbench</item>
+        <item>Stone Hatchet</item>
+        <item>Furnace</item>
+        <item>Torch</item>
+        <item>Low Quality Metal</item>
+        <item>Metal Door</item>
+        <item>Large Wood Storage</item>
+        <item>Small Stash</item>
+        <item>Gunpowder</item>
+        <item>Sulfur</item>
+        <item>Wood Planks</item>
+        <item>Paper</item>
+        <item>Explosives</item>
+        <item>Bandage</item>
+        <item>Large Medkit</item>
+        <item>Small Medkit</item>
+        <item>Arrow</item>
+        <item>Handmade Shell</item>
+        <item>Shotgun Shells</item>
+        <item>556 Ammo</item>
+        <item>9mm Pistol</item>
+        <item>Hatchet</item>
+        <item>Hunting Bow</item>
+        <item>Hand Cannon</item>
+        <item>Pipe Shotgun</item>
+        <item>P250</item>
+        <item>Shotgun</item>
+        <item>Pick Axe</item>
+        <item>Explosive Charge</item>
+        <item>F1 Grenade</item>
+        <item>M4</item>
+        <item>MP5A4</item>
+        <item>Cloth Helmet</item>
+        <item>Cloth Vest</item>
+        <item>Cloth Pants</item>
+        <item>Cloth Boots</item>
+        <item>Leather Helmet</item>
+        <item>Leather Vest</item>
+        <item>Leather Pants</item>
+        <item>Leather Boots</item>
+        <item>Rad Suit Helmet</item>
+        <item>Rad Suit Vest</item>
+        <item>Rad Suit Pants</item>
+        <item>Rad Suit Boots</item>
+        <item>Kevlar Helmet</item>
+        <item>Kevlar Vest</item>
+        <item>Kevlar Pants</item>
+        <item>Kevlar Boots</item>
+        <item>Invisible Helmet</item>
+        <item>Invisible Vest</item>
+        <item>Invisible Pants</item>
+        <item>Invisible Boots</item>
+        <item>Flare</item>
+        <item>Holo Sight</item>
+        <item>Silencer</item>
+        <item>Flashlight Mod</item>
+        <item>Laser Sight</item>
+        <item>Wood</item>
+        <item>Wood Pillar</item>
+        <item>Wood Foundation</item>
+        <item>Wood Wall</item>
+        <item>Wood Doorway</item>
+        <item>Wood Window</item>
+        <item>Wood Stairs</item>
+        <item>Wood Ramp</item>
+        <item>Wood Ceiling</item>
+        <item>Metal Pillar</item>
+        <item>Metal Foundation</item>
+        <item>Metal Fragments</item>
+        <item>Metal Wall</item>
+        <item>Metal Doorway</item>
+        <item>Metal Window</item>
+        <item>Metal Stairs</item>
+        <item>Metal Ramp</item>
+        <item>Metal Ceiling</item>
+        <item>Metal Window Bars</item>
+        <item>Research Kit 1</item>
+        <item>Uber Hatchet</item>
+        <item>Uber Hunting Bow</item>
+        <item>Cooked Chicken Breast</item>
+        <item>Anti-Radiation Pills</item>
+    </array>
+</resources>
