@@ -1,0 +1,53 @@
+apply plugin: 'com.android.library'
+
+ext {
+    bintrayRepo = 'maven'
+    bintrayName = 'carousel-picker'
+
+    publishedGroupId = 'com.givenocode.carouselpicker'
+    libraryName = 'CarouselPicker'
+    artifact = 'carousel-picker'
+
+    libraryDescription = 'Android library for embedding good scrolling fragment for picking items.'
+
+    siteUrl = 'https://github.com/GiveNoCode/AndroidCarouselPicker'
+    gitUrl = 'https://github.com/GiveNoCode/AndroidCarouselPicker.git'
+
+    libraryVersion = '0.0.1'
+
+    developerId = 'givenocode'
+    developerName = 'Oleh Novoselich'
+    developerEmail = 'o.novosad.reg@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.3"
+
+    defaultConfig {
+        minSdkVersion 11
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+
+    compile 'com.android.support:appcompat-v7:23.4.0'
+    compile 'com.android.support:design:23.4.0'
+}
+// Place it at the end of the file
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'
+
